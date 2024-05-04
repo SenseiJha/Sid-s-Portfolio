@@ -1,0 +1,296 @@
+.code{
+    color: rgb(210, 255, 10);
+}
+
+.overview{
+    height: 100vh;
+    width: 200vh;
+}
+
+body{
+    background-color: rgb(32, 196, 187);
+}
+
+.slides{
+    background-image: url('slides_prev_ui.png');
+}
+
+.head{
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row .col:nth-child(2){
+    background-size: 100%;
+    background-position: center center;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.construct{
+    height : 80vh;
+    width: 120vh;
+}
+
+.row .col:nth-child(2) p{
+    width: 65%;
+    color: rgb(188, 255, 224);
+}
+
+@media screen and (max-width: 768px) {
+    .row .col:nth-child(1){
+        display: none;
+    }
+
+    .jumbotron {
+        padding: 0;
+        margin: 0;
+    }
+
+    .row .col:nth-child(2){
+        background-size: 130%;
+        height: 80vh;
+    }
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    font-weight: 400;
+}
+.card{
+    border: none !important;
+}
+.card-header{
+    background-color: rgb(196, 0, 0) !important;
+    border: none !important;
+}
+
+.navbar{
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 10;
+}
+
+.card-body{
+    background-color: rgb(0, 92, 31);
+}
+
+.card-title{
+    color:rgb(15, 245, 8);
+    font-weight: bold; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sensei-name{
+    font-size:30px;
+    color:rgb(255, 169, 8);
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-text{
+    color: white;
+    font-family: "Prompt", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#skills .jumbotron{
+    background-color: rgb(82, 253, 76);
+    padding-top: 10px;
+}
+
+.sI{
+    display: flex;
+    justify-content: center;
+}
+
+.list li{
+    font-weight: bolder;
+}
+
+.pad li{
+    font-weight: bolder;
+}
+
+.list .program li{
+    color: darkgreen;
+}
+
+.list .tools li{
+    color: darkviolet;
+}
+
+.list .newage li{
+    color: darkblue;
+}
+
+.list .cyber li{
+    color: #507210;
+}
+.list .comprof li{
+    color: rgb(56, 56, 56);
+}
+.pad .finance li{
+    color: rgb(146, 12, 39);
+}
+.pad .core li{
+    color: darkblue;
+}
+.pad .graphics li{
+    color: darkmagenta;
+}
+.pad .intprsnl li{
+    color: brown;
+}
+
+.list ul li h4{
+    text-decoration:double black;
+}
+
+.heading{
+    text-align: center;
+    font-weight: 900;
+    font-size: 15vh;
+    font-family: "Satisfy", cursive;
+    text-shadow: none;
+    color: greenyellow;
+    transition: text-shadow 1s;
+    background-color: indigo;
+}
+
+.heading:hover{
+    background-color: #507210;
+    color: black;
+}
+
+.sI img{
+    width: 80%;
+}
+
+.social a{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+#skills .row .col-xs-12 h4{
+    font-size: 2rem;
+    font-weight: 800;
+    color:rgb(66, 29, 2);
+}
+
+#skills .row .col-xs-12 p{
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: maroon;
+}
+
+.pad{
+    padding-left: 0;
+}
+
+.deff{
+    padding: 0rem;
+}
+
+@media screen and (max-width: 860px){
+    .sI{
+        display: none;
+    }
+
+    .row .col-xs-12 ul{
+        margin: 25px;
+    }
+
+    .pad{
+        text-align: right;
+        padding-right: 25px;
+    }
+}
+
+.contact{
+    margin: 5vw;
+    padding: 3vw;
+}
+
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.uncomplicated{
+    width: 100%;
+}
+
+.footer_content{
+    font-family: "Vast Shadow", serif;
+    font-style: italic;
+    color: rgba(241, 241, 241, 0.705);
+}
+
+footer ul li{
+    font-family: "Goldman", sans-serif; 
+    font-weight: bold;
+    color: rgba(240, 248, 255, 0.521);
+}
+
+footer{
+    background-color: black;
+}
+.card{
+    box-shadow: 5px 5px 5px blue;
+    width: 20vw;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cont{
+    margin: 8vw;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+
+@media screen and (max-width: 900px) {
+    .grid{
+        display: grid;
+        grid-template-columns: "b1" "b2" "b3";
+    }
+    .card{
+        width: 80vw;
+        margin-bottom: 25px;
+    }
+    .grid div:nth-child(1){
+        grid-area: b1;
+    }
+    .grid div:nth-child(2){
+        grid-area: b2;
+    }
+    .grid div:nth-child(3){
+        grid-area: b3;
+    }
+}
+@media screen and (max-width: 900px) {
+    .hide{
+        display: none;
+    }
+}
